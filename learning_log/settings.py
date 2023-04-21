@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-m*4vs4ac*spdzc+s2y$j6q0i^%sn+m!!r!uf6)&yihak43w2@k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['vinipux.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
