@@ -11,4 +11,7 @@ urlpatterns=[
     path('new_entry/<int:topic_id>/', views.new_entry, name='new_entry'),
     #Редагування
     path('edit_entry/<int:entry_id>/', views.edit_entry, name='edit_entry'),
+    #Видалення
+    path('delete_topic/<int:topic_id>/', views.delete_topic, name="delete_topic"),
+    path('delete_entry/<int:entry_id>/', views.delete_entry, name="delete_entry"),
 ]
